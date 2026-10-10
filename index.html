@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AgriHarvest | Produits agricoles de qualité</title>
+    <meta
+      name="description"
+      content="AgriHarvest vend des produits agricoles frais, locaux et de qualité, directement depuis les fermes."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <div class="brand">
+          <span class="brand-mark">A</span>
+          <div>
+            <strong>AgriHarvest</strong>
+            <small>Frais & local</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navigation principale">
+          <a href="#catalogue">Catalogue</a>
+          <a href="#avantages">Pourquoi nous</a>
+          <a href="#temoignages">Avis</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <button id="cartBtn" class="cart-button" type="button">
+          Panier <span id="cartCount">0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">Direct du producteur</span>
+            <h1>Des produits agricoles sains, savoureux et bien choisis.</h1>
+            <p>
+              Des fruits, légumes, céréales et denrées locales sélectionnés avec soin pour vous apporter
+              fraîcheur, qualité et confiance à chaque commande.
+            </p>
+
+            <div class="cta-row">
+              <a href="#catalogue" class="btn btn-primary">Découvrir les produits</a>
+              <a href="#contact" class="btn btn-secondary">Nous contacter</a>
+            </div>
+
+            <ul class="hero-stats" aria-label="Statistiques">
+              <li>
+                <strong>1 200+</strong>
+                <span>clients satisfaits</span>
+              </li>
+              <li>
+                <strong>48h</strong>
+                <span>livraison rapide</span>
+              </li>
+              <li>
+                <strong>100%</strong>
+                <span>pays d'origine local</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Image de produits agricoles">
+            <div class="floating-card card-one">
+              <span>Tomates bio</span>
+              <strong>2,5 €/kg</strong>
+            </div>
+            <div class="floating-card card-two">
+              <span>Miel artisanal</span>
+              <strong>6,9 €</strong>
+            </div>
+            <img
+              src="https://images.unsplash.com/photo-1464226184884-fa52ac9d5d0c?auto=format&fit=crop&w=1200&q=80"
+              alt="Produit agricole sur étal"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="catalogue" class="catalog container">
+        <div class="section-head">
+          <span class="eyebrow">Notre catalogue</span>
+          <h2>Produits du terroir</h2>
+        </div>
+
+        <div id="productsGrid" class="products-grid" aria-live="polite"></div>
+      </section>
+
+      <section id="avantages" class="advantages">
+        <div class="container">
+          <div class="section-head center">
+            <span class="eyebrow">Pourquoi nous choisir</span>
+            <h2>Une qualité premium, à chaque étape</h2>
+          </div>
+
+          <div class="advantages-grid">
+            <article class="advantage-card">
+              <div class="icon">🌿</div>
+              <h3>Produits locaux</h3>
+              <p>Nous sélectionnons des productions proches de nos fermes pour garantir fraîcheur et authenticité.</p>
+            </article>
+
+            <article class="advantage-card">
+              <div class="icon">🚚</div>
+              <h3>Livraison rapide</h3>
+              <p>Commandes préparées et expédiées en moins de 48h pour une meilleure qualité à réception.</p>
+            </article>
+
+            <article class="advantage-card">
+              <div class="icon">✅</div>
+              <h3>Contrôle qualité</h3>
+              <p>Chaque produit est vérifié avant expédition pour répondre à nos standards stricts.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="temoignages" class="testimonials container">
+        <div class="section-head center">
+          <span class="eyebrow">Témoignages</span>
+          <h2>Ce que nos clients disent</h2>
+        </div>
+
+        <div class="testimonial-grid">
+          <blockquote>
+            “Très bons produits, bien emballés et surtout très frais. J’ai commandé pour toute la famille et on a adoré.”
+            <footer>— Aline D.</footer>
+          </blockquote>
+          <blockquote>
+            “Le service est fiable et le rapport qualité/prix excellent. Je recommande sans hésiter.”
+            <footer>— Michel K.</footer>
+          </blockquote>
+          <blockquote>
+            “Des légumes et fruits vraiment savoureux, comme du frais direct de la ferme.”
+            <footer>— Sandra T.</footer>
+          </blockquote>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand footer-brand">
+            <span class="brand-mark">A</span>
+            <div>
+              <strong>AgriHarvest</strong>
+              <small>Frais & local</small>
+            </div>
+          </div>
+          <p>Des produits agricoles de qualité, directement depuis nos fermes.</p>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="mailto:contact@agriharvest.com">contact@agriharvest.com</a></li>
+            <li><a href="tel:+221770000000">+221 77 000 00 00</a></li>
+            <li>Route de la Ferme, Dakar</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Heures d’ouverture</h4>
+          <ul>
+            <li>Lun – Sam : 8h – 18h</li>
+            <li>Dimanche : Fermé</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">© <span id="year"></span> AgriHarvest. Tous droits réservés.</div>
+      </div>
+    </footer>
+
+    <aside id="cartModal" class="cart-modal" aria-hidden="true">
+      <div class="cart-panel">
+        <button id="closeCart" class="close-cart" type="button" aria-label="Fermer le panier">×</button>
+        <h3>Votre panier</h3>
+
+        <div id="cartItems" class="cart-items"></div>
+
+        <div class="cart-summary">
+          <p>Total : <strong id="cartTotal">0 €</strong></p>
+          <div class="summary-actions">
+            <button id="emptyCart" class="btn btn-secondary" type="button">Vider</button>
+            <a id="checkoutBtn" href="#" class="btn btn-primary">Commander</a>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
